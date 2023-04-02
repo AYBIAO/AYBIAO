@@ -631,9 +631,9 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>ChatGPT AYBIAO专用</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            个人网站：aybiao.com
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -672,7 +672,7 @@ export function Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
+              <a href="aybiao.com" target="_blank">
                 <IconButton icon={<GithubIcon />} />
               </a>
             </div>
